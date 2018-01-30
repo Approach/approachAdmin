@@ -1,0 +1,93 @@
+body {
+	
+}
+ul, ol, li { 
+	list-style: none;
+	display: inline-block; 
+	padding: 0px;
+}
+
+#stage {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#navBar, #content, #contextBar {
+	height: 100%;
+	margin-bottom: -3em;
+}
+.left {
+	float: left;
+
+}
+#adminBar {
+	height: 3em;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #FFD777;
+	color: #797979;
+}
+#adminBar h1 {
+	color: #FFF;
+	display: inline;
+	font-size: 16px;
+	font-weight: bold;
+}
+#adminBar ul {
+	margin-top: 0.7em;
+	margin-left: 1em;
+}
+#adminBar #notifications i {
+	font-size: 13px;
+	padding: 4px;
+	border: 1px solid #797979;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-right: 0.7em;
+	position: relative;
+}
+#adminBar #notifications i span {
+	position: absolute;
+	top: -11px;
+	right: -9px;
+	color: #FFF;
+	background-color: #68DFF0;
+	padding: 1px;
+	border: 1px solid #68DFF0;
+	border-radius: 8px;
+}
+#notifications {
+	margin-left: 4em;
+}
+#navBar {
+	width: 11%;
+	height: 100%;
+	position: absolute;
+	top: 3em;
+	left: 0px;
+	background-color: #424A5D;
+	color: #AEB2B7;
+}
+#navBar p {
+	font-size: 14px;
+}
+#content {
+	width: 67%;
+	position: absolute;
+	top: 3em;
+	left: 11%;
+	background-color: #F2F2F2;
+}
+#contextBar {
+	height: 100%;
+	width: 22%;
+	top: 3em;
+	right: 0px;
+	position: absolute;
+}
